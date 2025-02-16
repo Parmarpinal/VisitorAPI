@@ -360,3 +360,6 @@ F:\Pinal_College\Visitor_Management_System\VisitorWebAPI\obj\Debug\net8.0\refint
 F:\Pinal_College\Visitor_Management_System\VisitorWebAPI\obj\Debug\net8.0\VisitorWebAPI.pdb
 F:\Pinal_College\Visitor_Management_System\VisitorWebAPI\obj\Debug\net8.0\VisitorWebAPI.genruntimeconfig.cache
 F:\Pinal_College\Visitor_Management_System\VisitorWebAPI\obj\Debug\net8.0\ref\VisitorWebAPI.dll
+F:\Pinal_College\Visitor_Management_System\VisitorWebAPI\bin\Debug\net8.0\CloudinaryDotNet.dll
+F:\Pinal_College\Visitor_Management_System\VisitorWebAPI\bin\Debug\net8.0\dotenv.net.dll
+F:\Pinal_College\Visitor_Management_System\VisitorWebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

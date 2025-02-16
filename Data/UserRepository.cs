@@ -1,4 +1,7 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using System.Data;
+using System.Reflection.PortableExecutable;
 using VisitorWebAPI.Models;
 
 namespace VisitorWebAPI.Data
@@ -32,6 +35,8 @@ namespace VisitorWebAPI.Data
                         UserName = reader["UserName"].ToString(),
                         Email = reader["Email"].ToString(),
                         MobileNo = reader["MobileNo"].ToString(),
+                        Password = reader["Password"].ToString(),
+                        ImagePath = reader["ImagePath"].ToString(),
                         Gender = reader["Gender"].ToString(),
                         Age = Convert.ToInt32(reader["Age"]),
                         City = reader["City"].ToString(),
@@ -47,7 +52,6 @@ namespace VisitorWebAPI.Data
             }
             return users;
         }
-
         public bool Add(UserModel model)
         {
             using (SqlConnection conn = new SqlConnection(_connectionString))
@@ -60,6 +64,8 @@ namespace VisitorWebAPI.Data
                 cmd.Parameters.AddWithValue("@UserName", model.UserName);
                 cmd.Parameters.AddWithValue("@Email", model.Email);
                 cmd.Parameters.AddWithValue("@MobileNo", model.MobileNo);
+                cmd.Parameters.AddWithValue("@Password", model.Password);
+                cmd.Parameters.AddWithValue("@ImagePath", model.ImagePath);
                 cmd.Parameters.AddWithValue("@Age", model.Age);
                 cmd.Parameters.AddWithValue("@Gender", model.Gender);
                 cmd.Parameters.AddWithValue("@City", model.City);
@@ -84,6 +90,8 @@ namespace VisitorWebAPI.Data
                 cmd.Parameters.AddWithValue("@UserName", model.UserName);
                 cmd.Parameters.AddWithValue("@Email", model.Email);
                 cmd.Parameters.AddWithValue("@MobileNo", model.MobileNo);
+                cmd.Parameters.AddWithValue("@Password", model.Password);
+                cmd.Parameters.AddWithValue("@ImagePath", model.ImagePath);
                 cmd.Parameters.AddWithValue("@Age", model.Age);
                 cmd.Parameters.AddWithValue("@Gender", model.Gender);
                 cmd.Parameters.AddWithValue("@City", model.City);
@@ -110,7 +118,6 @@ namespace VisitorWebAPI.Data
                 return rowsAffected > 0;
             }
         }
-
         public UserModel SelectByPK(int userID)
         {
             UserModel model = null;
@@ -132,39 +139,8 @@ namespace VisitorWebAPI.Data
                         UserName = reader["UserName"].ToString(),
                         Email = reader["Email"].ToString(),
                         MobileNo = reader["MobileNo"].ToString(),
-                        Gender = reader["Gender"].ToString(),
-                        Age = Convert.ToInt32(reader["Age"]),
-                        City = reader["City"].ToString(),
-                        OrganizationID = reader.IsDBNull(reader.GetOrdinal("OrganizationID")) ? null : Convert.ToInt32(reader["OrganizationID"]),
-                        DepartmentID = reader.IsDBNull(reader.GetOrdinal("DepartmentID")) ? null : Convert.ToInt32(reader["DepartmentID"]),
-                        UserTypeID = Convert.ToInt32(reader["UserTypeID"])
-                    };
-                }
-            }
-            return model;
-        }
-
-        public UserModel SelectSpecificUser(int userID)
-        {
-            UserModel model = null;
-
-            using (SqlConnection connection = new SqlConnection(_connectionString))
-            {
-                SqlCommand command = new SqlCommand("PR_User_SelectSpecificType", connection)
-                {
-                    CommandType = System.Data.CommandType.StoredProcedure,
-                };
-                command.Parameters.AddWithValue("@UserID", userID);
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                if (reader.Read())
-                {
-                    model = new UserModel
-                    {
-                        UserID = Convert.ToInt32(reader["UserID"]),
-                        UserName = reader["UserName"].ToString(),
-                        Email = reader["Email"].ToString(),
-                        MobileNo = reader["MobileNo"].ToString(),
+                        Password = reader["Password"].ToString(),
+                        ImagePath = reader["ImagePath"].ToString(),
                         Gender = reader["Gender"].ToString(),
                         Age = Convert.ToInt32(reader["Age"]),
                         City = reader["City"].ToString(),
@@ -176,6 +152,33 @@ namespace VisitorWebAPI.Data
                         UserTypeID = Convert.ToInt32(reader["UserTypeID"])
                     };
                 }
+            }
+            return model;
+        }
+        public UserModel UserLogin(UserLoginModel userLoginModel)
+        {
+            UserModel model = null;
+            SqlConnection sqlConnection = new SqlConnection(_connectionString);
+            sqlConnection.Open();
+            SqlCommand sqlCommand = sqlConnection.CreateCommand();
+            sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
+            sqlCommand.CommandText = "PR_User_Login";
+            sqlCommand.Parameters.Add("@UserName", SqlDbType.VarChar).Value = userLoginModel.UserName;
+            sqlCommand.Parameters.Add("@Password", SqlDbType.VarChar).Value = userLoginModel.Password;
+            SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+            if (sqlDataReader.Read())
+            {
+                model = new UserModel
+                {
+                    UserID = Convert.ToInt32(sqlDataReader["UserID"]),
+                    UserName = sqlDataReader["UserName"].ToString(),
+                    ImagePath = sqlDataReader["ImagePath"].ToString(),
+                    Email = sqlDataReader["Email"].ToString(),
+                    Password = sqlDataReader["Password"].ToString(),
+                    UserTypeID = Convert.ToInt32(sqlDataReader["UserTypeID"]),
+                    OrganizationID = sqlDataReader.IsDBNull(sqlDataReader.GetOrdinal("OrganizationID")) ? null : Convert.ToInt32(sqlDataReader["OrganizationID"]),
+                    DepartmentID = sqlDataReader.IsDBNull(sqlDataReader.GetOrdinal("DepartmentID")) ? null : Convert.ToInt32(sqlDataReader["DepartmentID"]),
+                };
             }
             return model;
         }

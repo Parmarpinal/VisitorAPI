@@ -78,15 +78,16 @@ namespace VisitorWebAPI.Controllers
             }
             return NoContent();
         }
-        [HttpGet("specific/{id}")]
-        public IActionResult GetSpecificUser(int id)
+
+        [HttpPost("login")]
+        public IActionResult LoginUser([FromBody] UserLoginModel model)
         {
-            var User = _repo.SelectSpecificUser(id);
-            if (User == null)
+            var user = _repo.UserLogin(model);
+            if(user == null)
             {
-                return NotFound();
+                return Unauthorized(new { message = "Invalid credentials" });
             }
-            return Ok(User);
+            return Ok(user);
         }
     }
 }

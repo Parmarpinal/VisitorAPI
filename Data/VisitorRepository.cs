@@ -54,6 +54,12 @@ namespace VisitorWebAPI.Data
                         CheckOut = reader["CheckOut"] != DBNull.Value && !string.IsNullOrWhiteSpace(reader["CheckOut"].ToString())
                         ? (TimeSpan)reader["CheckOut"]
                         : null,
+
+                        HostImage = reader["HostImage"].ToString(),
+                        City = reader["City"].ToString(),
+                        Address = reader["Address"].ToString(),
+                        Head = reader["Head"].ToString(),
+                        VisitorImage = reader["VisitorImage"].ToString()
                     });
                 }
             }
@@ -145,6 +151,7 @@ namespace VisitorWebAPI.Data
                         CheckOut = reader["CheckOut"] != DBNull.Value && !string.IsNullOrWhiteSpace(reader["CheckOut"].ToString())
                         ? (TimeSpan)reader["CheckOut"]
                         : null,
+                        VisitorImage = reader["VisitorImage"].ToString()
                     };
                 }
             }

@@ -136,6 +136,10 @@ namespace VisitorWebAPI.Data
                                         CheckOut = reader["CheckOut"] != DBNull.Value && !string.IsNullOrWhiteSpace(reader["CheckOut"].ToString())
                                                     ? TimeOnly.Parse(reader["CheckOut"].ToString())
                                                     : null,
+                                        OrganizationID = Convert.ToInt32(reader["OrganizationID"]),
+                                        DepartmentID = Convert.ToInt32(reader["DepartmentID"]),
+                                        OrganizationName = reader["OrganizationName"].ToString(),
+                                        DepartmentName = reader["DepartmentName"].ToString(),
                                     });
                                 }
                             }

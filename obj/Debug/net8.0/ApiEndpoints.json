@@ -151,6 +151,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VisitorWebAPI.Controllers.ImageController",
+    "Method": "uploadImage",
+    "RelativePath": "api/Image/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VisitorWebAPI.Controllers.OrganizationController",
     "Method": "GetOrganizations",
     "RelativePath": "api/Organization",
@@ -300,6 +316,22 @@
   },
   {
     "ContainingType": "VisitorWebAPI.Controllers.UserController",
+    "Method": "LoginUser",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VisitorWebAPI.Models.UserLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisitorWebAPI.Controllers.UserController",
     "Method": "GetUsers",
     "RelativePath": "api/User/search",
     "HttpMethod": "GET",
@@ -320,22 +352,6 @@
         "Name": "typeID",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "VisitorWebAPI.Controllers.UserController",
-    "Method": "GetSpecificUser",
-    "RelativePath": "api/User/specific/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -496,7 +512,7 @@
   {
     "ContainingType": "VisitorWebAPI.Controllers.VisitorController",
     "Method": "GetVisitorByUserID",
-    "RelativePath": "api/Visitor/GetByUserIS/{id}",
+    "RelativePath": "api/Visitor/GetByUserID/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

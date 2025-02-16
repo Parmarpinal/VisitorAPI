@@ -17,6 +17,7 @@ builder.Services.AddScoped<DepartmentRepository>();
 builder.Services.AddScoped<DropDownRepository>();
 builder.Services.AddScoped<UserTypeRepository>();
 builder.Services.AddScoped<DashboardRepository>();
+builder.Services.AddScoped<ImageRepository>();
 
 builder.Services.AddCors(options =>
 {

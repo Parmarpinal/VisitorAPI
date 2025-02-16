@@ -32,7 +32,6 @@ namespace VisitorWebAPI.Data
             }
             return users;
         }
-
         public bool Add(UserTypeModel model)
         {
             using (SqlConnection conn = new SqlConnection(_connectionString))
@@ -79,7 +78,6 @@ namespace VisitorWebAPI.Data
                 return rowsAffected > 0;
             }
         }
-
         public UserTypeModel SelectByPK(int usertypeID)
         {
             UserTypeModel model = null;
@@ -104,5 +102,6 @@ namespace VisitorWebAPI.Data
             }
             return model;
         }
+
     }
 }
