@@ -89,11 +89,10 @@ namespace VisitorWebAPI.Data
                 cmd.Parameters.AddWithValue("@UserTypeID", model.UserTypeID);
                 cmd.Parameters.AddWithValue("@UserName", model.UserName);
                 cmd.Parameters.AddWithValue("@Email", model.Email);
-                cmd.Parameters.AddWithValue("@MobileNo", model.MobileNo);
                 cmd.Parameters.AddWithValue("@Password", model.Password);
-                cmd.Parameters.AddWithValue("@ImagePath", model.ImagePath);
-                cmd.Parameters.AddWithValue("@Age", model.Age);
+                cmd.Parameters.AddWithValue("@MobileNo", model.MobileNo);
                 cmd.Parameters.AddWithValue("@Gender", model.Gender);
+                cmd.Parameters.AddWithValue("@Age", model.Age);
                 cmd.Parameters.AddWithValue("@City", model.City);
                 cmd.Parameters.AddWithValue("@OrganizationID", model.OrganizationID);
                 cmd.Parameters.AddWithValue("@DepartmentID", model.DepartmentID);

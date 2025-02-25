@@ -3,60 +3,32 @@
   "WorkspaceRootPath": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\data\\visitorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:data\\visitorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\models\\visitormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:models\\visitormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\controllers\\visitorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:controllers\\visitorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\models\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:models\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\data\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:data\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\data\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:data\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\data\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:data\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\models\\notificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:models\\notificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\controllers\\organizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:controllers\\organizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\data\\organizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:data\\organizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\helpers\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:helpers\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|f:\\pinal_college\\visitor_management_system\\visitorwebapi\\models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3AE231-94A1-46E7-881D-3671E3FB6686}|VisitorWebAPI.csproj|solutionrelative:models\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,172 +66,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DashBoardModel.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\DashBoardModel.cs",
-              "RelativeDocumentMoniker": "Models\\DashBoardModel.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\DashBoardModel.cs",
-              "RelativeToolTip": "Models\\DashBoardModel.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T14:01:46.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DashboardRepository.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\DashboardRepository.cs",
-              "RelativeDocumentMoniker": "Data\\DashboardRepository.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\DashboardRepository.cs",
-              "RelativeToolTip": "Data\\DashboardRepository.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAYwIEAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T14:01:27.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImageRepository.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\ImageRepository.cs",
-              "RelativeDocumentMoniker": "Data\\ImageRepository.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\ImageRepository.cs",
-              "RelativeToolTip": "Data\\ImageRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T05:46:54.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T13:37:28.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "Models\\UserModel.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\UserModel.cs",
-              "RelativeToolTip": "Models\\UserModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T11:40:34.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VisitorModel.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\VisitorModel.cs",
-              "RelativeDocumentMoniker": "Models\\VisitorModel.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\VisitorModel.cs",
-              "RelativeToolTip": "Models\\VisitorModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T11:37:19.526Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VisitorRepository.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\VisitorRepository.cs",
-              "RelativeDocumentMoniker": "Data\\VisitorRepository.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\VisitorRepository.cs",
-              "RelativeToolTip": "Data\\VisitorRepository.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAswI8AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T11:32:29.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T14:03:38.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VisitorController.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\VisitorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VisitorController.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\VisitorController.cs",
-              "RelativeToolTip": "Controllers\\VisitorController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwFUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T11:30:20.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "ImageController.cs",
               "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\ImageController.cs",
               "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
               "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\ImageController.cs",
               "RelativeToolTip": "Controllers\\ImageController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T03:26:55.843Z"
+              "WhenOpened": "2025-02-25T12:38:42.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T05:48:42.186Z"
+              "WhenOpened": "2025-02-25T05:49:48.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": ".env",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\.env",
-              "RelativeDocumentMoniker": ".env",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\.env",
-              "RelativeToolTip": ".env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-15T05:44:00.557Z"
+              "DocumentIndex": 4,
+              "Title": "OrganizationController.cs",
+              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\OrganizationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrganizationController.cs",
+              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\OrganizationController.cs",
+              "RelativeToolTip": "Controllers\\OrganizationController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T05:14:45.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ImageHelper.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Helpers\\ImageHelper.cs",
-              "RelativeDocumentMoniker": "Helpers\\ImageHelper.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Helpers\\ImageHelper.cs",
-              "RelativeToolTip": "Helpers\\ImageHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
+              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwBMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T03:26:20.583Z"
+              "WhenOpened": "2025-02-25T05:14:41.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ImageModel.cs",
-              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\ImageModel.cs",
-              "RelativeDocumentMoniker": "Models\\ImageModel.cs",
-              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\ImageModel.cs",
-              "RelativeToolTip": "Models\\ImageModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "OrganizationRepository.cs",
+              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\OrganizationRepository.cs",
+              "RelativeDocumentMoniker": "Data\\OrganizationRepository.cs",
+              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\OrganizationRepository.cs",
+              "RelativeToolTip": "Data\\OrganizationRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAoAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T11:40:45.434Z"
+              "WhenOpened": "2025-02-25T04:48:02.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "Data\\NotificationRepository.cs",
+              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Data\\NotificationRepository.cs",
+              "RelativeToolTip": "Data\\NotificationRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwEMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:47:56.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationModel.cs",
+              "DocumentMoniker": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\NotificationModel.cs",
+              "RelativeDocumentMoniker": "Models\\NotificationModel.cs",
+              "ToolTip": "F:\\Pinal_College\\Visitor_Management_System\\VisitorWebAPI\\Models\\NotificationModel.cs",
+              "RelativeToolTip": "Models\\NotificationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:44:57.83Z",
+              "EditorCaption": ""
             }
           ]
         }

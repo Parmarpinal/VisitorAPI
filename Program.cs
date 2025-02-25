@@ -18,6 +18,7 @@ builder.Services.AddScoped<DropDownRepository>();
 builder.Services.AddScoped<UserTypeRepository>();
 builder.Services.AddScoped<DashboardRepository>();
 builder.Services.AddScoped<ImageRepository>();
+builder.Services.AddScoped<NotificationRepository>();
 
 builder.Services.AddCors(options =>
 {
